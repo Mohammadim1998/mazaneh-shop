@@ -1,0 +1,31 @@
+.slider {
+    padding: 2rem;
+}
+.slide-right {
+    height: 400px;
+    border-radius: 15px;
+}
+
+.slide-left {
+    height: 400px;
+    margin-top: 0.5rem;
+}
+.box-course {
+    width: 95%;
+    height: 195px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.box-course:hover{
+    opacity: 0.8;
+}
+
+.course-icon {
+    font-size: 54px;
+    margin-bottom: 1.5rem;
+}

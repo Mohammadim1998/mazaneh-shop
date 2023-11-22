@@ -1,0 +1,433 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+
+/*`xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+   
+    .card-box-title-power{
+        margin-bottom: 3rem !important;
+        font-size: 15px !important;
+    }
+    
+    .card-box-par-power{
+        font-size: 16px !important;
+    }
+    .card-box-title {
+        font-size: 15px !important;
+    }
+
+    .card-box-par {
+        font-weight: 600 !important;
+        margin-bottom: 1rem !important;
+    }
+    .footer-bottom .footer-bottom-right img {
+        width: 200px;
+    }
+    .footer-bottom .footer-bottom-left h5 {
+        font-size: 18px;
+        font-weight: "300";
+    }
+
+    .titleSpan {
+        font-size: 20px !important;
+    }
+    .linkSpan {
+        font-size: 16px !important;
+    }
+    .titleSpanicon {
+        font-size: 20px !important;
+    }
+    .linkSpanicon {
+        font-size: 16px !important;
+    }
+
+    .contentBox-main-row {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-right: -15px;
+    }
+    .card-content-box {
+        margin-left: 10px;
+    }
+    .logos-footer{
+        display: flex !important;
+        flex-direction: row !important;
+        margin-top: 10rem !important;
+        margin-right: 0rem !important;
+    }
+}
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .logos-footer{
+        display: flex !important;
+        flex-direction: row !important;
+        margin-top: 10rem !important;
+        margin-right: 0rem !important;
+    }
+    .card-box-title-power{
+        margin-bottom: 3rem !important;
+        font-size: 13px !important;
+    }
+    
+    .card-box-par-power{
+        font-size: 14px !important;
+    }
+    .footer-bottom .footer-bottom-right img {
+        width: 200px;
+    }
+    .footer-bottom .footer-bottom-left h5 {
+        font-size: 16px;
+        font-weight: "300";
+    }
+    .card-box-title {
+        font-size: 12px !important;
+    }
+
+    .card-box-par {
+        font-weight: 400 !important;
+    }
+}
+
+/*`lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .card-box-title-power{
+        margin-bottom: 1rem !important;
+        font-size: 12px !important;
+    }
+    
+    .card-box-par-power{
+        font-size: 12px !important;
+    }
+
+    .logos {
+        padding: 2rem !important;
+    }
+    .logos .logo {
+        width: 70px !important;
+        height: 70px !important;
+        margin-top: 4rem !important;
+    }
+    .articleRight {
+        margin-bottom: 2rem;
+    }
+    .logos-footer {
+        display: flex;
+        flex-direction: column !important;
+        margin-right: 8rem !important;
+        margin-top: 0rem !important;
+    }
+
+    .footer-logo-left {
+        margin-bottom: 1rem !important;
+        margin-left: 0rem !important;
+    }
+    .listFooter li {
+        margin-top: 2rem;
+    }
+
+    .listFooter li a {
+        font-size: 10px !important;
+    }
+
+    .icon-footer {
+        margin-left: 0.5rem !important;
+        width: 15px !important;
+        height: 15px !important;
+    }
+
+    .footerTitle {
+        font-size: 15px !important;
+    }
+    .socialFooter {
+        font-size: 13px;
+    }
+
+    .slide-left {
+        margin-right: 0.7rem;
+    }
+
+    .carousel-inner {
+        height: 300px !important;
+    }
+
+    .slide-right {
+        height: 300px !important;
+    }
+
+    .footer-bottom .footer-bottom-right img {
+        width: 200px;
+        margin-left: 3rem;
+    }
+    .footer-bottom .footer-bottom-left h5 {
+        font-size: 12px;
+        font-weight: "100";
+    }
+
+    .card-top-left h1 {
+        font-size: 18px;
+    }
+
+    .card-top-left .aboutPowerpoint {
+        font-size: 14px !important;
+        font-weight: 600;
+    }
+
+    .contentBox-main-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0;
+    }
+
+    .card-content-box {
+        margin-bottom: 15px;
+    }
+    .card-box-title {
+        font-size: 12px !important;
+    }
+
+    .card-box-par {
+        font-weight: 400 !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .logos-footer{
+        display: flex !important;
+        flex-direction: row !important;
+        margin-right: 0rem !important;
+    }
+    .card-box-title-power{
+        margin-bottom: 2rem !important;
+        font-size: 14px !important;
+    }
+    
+    .card-box-par-power{
+        font-size: 15px !important;
+    }
+
+    .logos {
+        padding: 0rem !important;
+    }
+    .logos .logo {
+        width: 70px !important;
+        height: 70px !important;
+        margin-top: 6rem !important;
+    }
+
+    .logos .logo {
+        width: 50px;
+        height: 50px;
+        margin-top: 4rem;
+    }
+    .slide-left {
+        height: 350px !important;
+        margin-right: 0.3rem;
+    }
+    .box-course {
+        height: 150px !important;
+    }
+    .carousel-inner {
+        height: 250px !important;
+    }
+
+    .slide-right {
+        height: 250px !important;
+    }
+
+    .footer-bottom .footer-bottom-right img {
+        width: 150px;
+        margin-left: 3rem;
+    }
+    .footer-bottom .footer-bottom-left h5 {
+        font-size: 10px;
+        font-weight: "200";
+    }
+
+    .titleSpan {
+        font-size: 16px !important;
+    }
+    .linkSpan {
+        font-size: 15px !important;
+    }
+    .titleSpanicon {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .linkSpanicon {
+        font-size: 18px !important;
+    }
+
+    .card-top-left h1 {
+        font-size: 18px;
+    }
+
+    .card-top-left .aboutPowerpoint {
+        font-size: 12px !important;
+        font-weight: 500;
+    }
+}
+/*`md` applies to small devices (landscape phones, less than 768px) */
+
+@media (max-width: 575.98px) {
+    .card-box-title-power{
+        margin-bottom: 3rem !important;
+        font-size: 17px !important;
+    }
+    
+    .card-box-par-power{
+        font-size: 15px !important;
+    }
+   
+    .logos {
+        padding: 2rem !important;
+    }
+    .logos .logo {
+        width: 60px !important;
+        height: 60px !important;
+        margin-top: 0rem !important;
+    }
+
+    .register-box {
+        padding: 5px;
+    }
+
+    .navbar-logo {
+        width: 100px;
+        margin-right: 1.5rem;
+    }
+    /* END NAVBAR */
+
+    .slide-left {
+        height: 350px !important;
+        margin-right: 0 !important;
+    }
+
+    .box-course {
+        height: 150px !important;
+    }
+
+    .carousel-inner {
+        height: 200px !important;
+    }
+
+    .slide-right {
+        height: 200px !important;
+    }
+
+    .footer-bottom .footer-bottom-right img {
+        width: 110px;
+        margin-left: 3rem;
+    }
+    .footer-bottom .footer-bottom-left h5 {
+        font-size: 8px;
+        font-weight: "100";
+    }
+
+    .titleSpan {
+        font-size: 10px !important;
+        font-weight: 600 !important;
+    }
+    .linkSpan {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+    }
+    .titleSpanicon {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .linkSpanicon {
+        font-size: 14px !important;
+    }
+
+    .card-top-left h1 {
+        font-size: 13px;
+    }
+
+    .card-top-left .aboutPowerpoint {
+        font-size: 12px !important;
+        line-height: 14px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 389px) {
+    .card-box-title-power{
+        margin-bottom: 3rem !important;
+        font-size: 14px !important;
+    }
+
+    .card-box-par-power{
+        font-size: 14px !important;
+    }
+    .navbar-search {
+        padding-top: 0.5rem;
+        font-size: 10px !important;
+    }
+    .logos .logo {
+        width: 50px;
+        height: 50px;
+        margin-top: 0rem;
+    }
+    .register-box {
+        padding: 5px;
+    }
+
+    .navbar-logo {
+        width: 100px;
+        margin-right: 1.5rem;
+    }
+    /* END NAVBAR */
+
+    .slide-left {
+        height: 350px !important;
+        margin-right: 0 !important;
+    }
+
+    .box-course {
+        height: 150px !important;
+    }
+
+    .carousel-inner {
+        height: 200px !important;
+    }
+
+    .slide-right {
+        height: 200px !important;
+    }
+
+    .footer-bottom .footer-bottom-right img {
+        width: 110px;
+        margin-left: 3rem;
+    }
+    .footer-bottom .footer-bottom-left h5 {
+        font-size: 7px;
+        font-weight: "600";
+    }
+
+    .titleSpan {
+        font-size: 10px !important;
+        font-weight: 600 !important;
+    }
+    .linkSpan {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+    }
+    .titleSpanicon {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .linkSpanicon {
+        font-size: 14px !important;
+    }
+    .card-top-left h1 {
+        font-size: 10px !important;
+    }
+
+    .card-top-left .aboutPowerpoint {
+        font-size: 10px !important;
+        line-height: 14.5px;
+        font-weight: 600;
+    }
+    .card-box-title-power{
+        margin-bottom: 2rem !important;
+    }
+}
